@@ -1,0 +1,16 @@
+{
+	"name"       : "cftp/widget-visibility-without-jetpack-type-conditions",
+	"description": "Adds type conditions to Widget Visibility Without Jetpack",
+	"homepage"   : "https://github.com/cftp/widget-visibility-without-jetpack/",
+	"type"       : "wordpress-plugin",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "Code For The People",
+			"homepage": "http://codeforthepeople.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
