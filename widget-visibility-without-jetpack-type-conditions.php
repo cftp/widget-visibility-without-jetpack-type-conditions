@@ -163,13 +163,3 @@ class WVWJPTC {
 WVWJPTC::init();
 
 
-
-/** Hello
- * Hooks the WP widget_conditions_condition_result filter 
- *
- * @return void
- **/
-function wvwjptc_widget_conditions_condition_result(  ) {
-	
-}
-add_filter( 'widget_conditions_condition_result', 'wvwjptc_widget_conditions_condition_result', 10, 2 );
