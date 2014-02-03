@@ -18,13 +18,6 @@
 class WVWJPTC {
 
 	/**
-	 * A version integer.
-	 *
-	 * @var int
-	 **/
-	var $version;
-
-	/**
 	 * Singleton stuff.
 	 * 
 	 * @access @static
