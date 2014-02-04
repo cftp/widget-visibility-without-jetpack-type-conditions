@@ -122,9 +122,6 @@ class WVWJPTC {
 	 * @author Simon Wheatley
 	 **/
 	public function filter_widget_conditions_condition_result( $condition_result, $instance ) {
-		
-		if ( ! $condition_result )
-			return $condition_result;
 
 		if ( $instance['conditions']['type'] ) {
 			switch ( $instance['conditions']['type'] ) {
